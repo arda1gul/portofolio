@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4b4646;
+    overflow: hidden;
+}
+
+.bar {
+    width: 1915px;
+    border: 3px solid white;
+    height: 100px;
+    background-color: transparent;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+nav {
+    float: right;
+    text-align: center;
+    /* background-color: red; */
+    margin-right: 350px; 
+    margin-top: 25px; 
+}
+
+.info {
+    text-decoration: underline;
+    color: white;
+    margin-left: 250px;
+    font-size: 40px;
+}
+
+header {
+    /* background-color: purple; */
+    width: 520px;
+}
+
+.overmij {
+    /* background-color: blue; */
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    width: 450px;
+    margin-left: 100px;
+    /* margin-left: 730px; */
+
+}
+
+.mezelf {
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 500px;
+}
+
+.foto {
+    float: right;
+    width: 500px;
+    height: 600px;
+    margin-right: 200px;
+    margin-top: 50px;
+    /* margin-bottom: 250px; */
+}
+
+.sidebar {
+    background-color: pink;
+}
