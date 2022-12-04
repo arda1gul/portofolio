@@ -38,6 +38,7 @@ nav {
     color: white;
     margin-left: 250px;
     font-size: 40px;
+    border-radius: 10px;
 }
 
 .projecten {
@@ -74,3 +75,8 @@ nav {
     margin-top: 100px;
 }
 
+.info:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
