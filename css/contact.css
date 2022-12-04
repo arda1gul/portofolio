@@ -96,3 +96,7 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
+
+.email:hover {
+    color: #06034a;
+}

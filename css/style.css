@@ -1,7 +1,13 @@
+@font-face {
+    font-family: style;
+    src: url("/fonts/style.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
 
 body {
     background-color: #4b4646;
@@ -60,11 +66,12 @@ header {
 
 .mezelf {
     text-align: left;
-    color: white;
-    font-size: 30px;
+    font-size: 200px;
     margin-top: 200px;
     margin-left: 150px;
-    width: 500px;
+    width: 470px;
+    font-family: style;
+    color: white;
 }
 
 .foto {
@@ -84,4 +91,70 @@ header {
     background-color: white;
     color: black;
     transition: 0.5s;
+}
+
+/* .mezelf:hover {
+    text-decoration: underline;
+    transition: 2s;
+    color: blue, black, green;
+} */
+
+.mezelf:hover {
+-webkit-animation:rainbow 2s infinite;
+-ms-animation:rainbow 2s infinite;
+-o-animation:rainbow 2s infinite;
+animation:rainbow 2s infinite;
+/* text-decoration: underline; */
+}
+@-webkit-keyframes rainbow {
+    0% {color:  blue;}
+    10% {color: yellow;}
+    20% {color: blue;}
+    30% {color: yellow;}
+    40% {color: blue;}
+    50% {color: yellow;}
+    60% {color: blue;}
+    70% {color: yellow;}
+    80% {color: blue;}
+    90% {color: yellow;}
+    100% {color: blue;}
+}
+@-ms-keyframes rainbow {
+    0% {color:  blue;}
+    10% {color:  yellow;}
+    20% {color:  blue;}
+    30% {color: yellow;}
+    40% {color: blue;}
+    50% {color: yellow;}
+    60% {color:  blue;}
+    70% {color: yellow}
+    80% {color:  blue;}
+    90% {color: yellow;}
+    100% {color: blue;}
+}
+@-o-keyframes rainbow {
+    0% {color: blue;}
+    10% {color:  yellow;}
+    20% {color:  blue;}
+    30% {color: yellow;}
+    40% {color: blue;}
+    50% {color:yellow;}
+    60% {color:  blue;}
+    70% {color:  yellow;}
+    80% {color: #0000ff;}
+    90% {color:yellow;}
+    100% {color: blue;}
+}
+@keyframes rainbow {
+    0% {color:  blue;}
+    10% {color: yellow;}
+    20% {color: blue;}
+    30% {color: yellow;}
+    40% {color: blue;}
+    50% {color: yellow;}
+    60% {color:  blue}
+    70% {color:  yellow}
+    80% {color: #0000ff;}
+    90% {color: yellow;}
+    100% {color: blue;}
 }
