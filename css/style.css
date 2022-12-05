@@ -3,6 +3,11 @@
     src: url("/fonts/style.ttf");
 }
 
+@font-face {
+    font-family: funk;
+    src: url("/fonts/funk.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +17,7 @@
 body {
     background-color: #4b4646;
     overflow: hidden;
+    user-select: none;
 }
 
 .bar {
@@ -45,6 +51,7 @@ nav {
     font-size: 40px;
     /* border: 2px solid white; */
     border-radius: 10px; 
+    font-family: funk;
 }
 
 header {
@@ -66,7 +73,7 @@ header {
 
 .mezelf {
     text-align: left;
-    font-size: 200px;
+    font-size: 150px;
     margin-top: 200px;
     margin-left: 150px;
     width: 470px;
@@ -91,20 +98,16 @@ header {
     background-color: white;
     color: black;
     transition: 0.5s;
+    opacity: 0.3;
 }
 
 /* .mezelf:hover {
+    -webkit-animation:rainbow 2s infinite;
+    -ms-animation:rainbow 2s infinite;
+    -o-animation:rainbow 2s infinite;
+    animation:rainbow 2s infinite;
+    cursor: default;
     text-decoration: underline;
-    transition: 2s;
-    color: blue, black, green;
-} */
-
-.mezelf:hover {
--webkit-animation:rainbow 2s infinite;
--ms-animation:rainbow 2s infinite;
--o-animation:rainbow 2s infinite;
-animation:rainbow 2s infinite;
-/* text-decoration: underline; */
 }
 @-webkit-keyframes rainbow {
     0% {color:  blue;}
@@ -157,4 +160,4 @@ animation:rainbow 2s infinite;
     80% {color: #0000ff;}
     90% {color: yellow;}
     100% {color: blue;}
-}
+} */

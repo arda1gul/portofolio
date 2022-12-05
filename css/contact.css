@@ -3,9 +3,15 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: funk;
+    src: url("/fonts/funk.ttf");
+}
+
 body {
     background-color: #4b4646;
     overflow: hidden;
+    user-select: text;
 }
 
 .bar {
@@ -38,6 +44,7 @@ nav {
     margin-left: 250px;
     font-size: 40px;
     border-radius: 10px;
+    font-family: funk;
 }
 
 .info:hover {
@@ -62,6 +69,7 @@ footer {
 .peText {
     font-size: 40px;
     color: white;
+    font-family: funk;
 }
 
 .email {
@@ -71,6 +79,7 @@ footer {
     cursor: pointer;
     text-align: center;
     margin-top: 100px;
+    font-family: funk;
 }
 
 .article {
@@ -88,6 +97,7 @@ footer {
 .nummerText {
     font-size: 40px;
     color: white;
+    font-family: funk;
 }
 
 .nummer {
@@ -95,6 +105,7 @@ footer {
     color: white;
     text-align: center;
     text-decoration: underline;
+    font-family: funk;
 }
 
 .email:hover {
