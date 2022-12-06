@@ -15,7 +15,7 @@ body {
 }
 
 .bar {
-    width: 1915px;
+    width: auto;
     border: 3px solid white;
     height: 100px;
     background-color: transparent;
@@ -34,8 +34,8 @@ nav {
     float: right;
     text-align: center;
     /* background-color: red; */
-    margin-right: 350px; 
-    margin-top: 25px; 
+    margin-right: 200px; 
+    margin-top: -50px;
 }
 
 .info {
@@ -43,7 +43,8 @@ nav {
     color: white;
     margin-left: 250px;
     font-size: 40px;
-    border-radius: 10px;
+    /* border: 2px solid white; */
+    border-radius: 10px; 
     font-family: funk;
 }
 

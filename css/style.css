@@ -21,7 +21,7 @@ body {
 }
 
 .bar {
-    width: 1915px;
+    width: auto;
     border: 3px solid white;
     height: 100px;
     background-color: transparent;
@@ -40,8 +40,8 @@ nav {
     float: right;
     text-align: center;
     /* background-color: red; */
-    margin-right: 350px; 
-    margin-top: 25px; 
+    margin-right: 200px; 
+    margin-top: -50px;
 }
 
 .info {
@@ -86,7 +86,7 @@ header {
     width: 500px;
     height: 600px;
     margin-right: 200px;
-    margin-top: 100px;
+    margin-top: 30px;
     /* margin-bottom: 250px; */
 }
 
