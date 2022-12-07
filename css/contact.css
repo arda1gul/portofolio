@@ -41,11 +41,12 @@ nav {
 .info {
     text-decoration: underline;
     color: white;
-    margin-left: 250px;
+    margin-left: 350px;
     font-size: 40px;
     /* border: 2px solid white; */
     border-radius: 10px; 
     font-family: funk;
+    margin-top: 100px;
 }
 
 .info:hover {
