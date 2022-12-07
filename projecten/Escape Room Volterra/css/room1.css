@@ -1,0 +1,168 @@
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+body {
+    background-image: url("/img/room1.png");
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+    overflow: hidden;
+}
+
+header {
+    width: 600px;
+    height: 200px;
+    float: left;
+    font-family: 'horroroid';
+    font-size: 25px;
+    color: white;
+    animation: fadeIn 3s;
+    float: left;
+    user-select: none;
+    /* background-color: blueviolet; */
+}
+
+.room1 {
+    font-size: 25px;
+    /* background-color: white; */
+    color: white;
+    height: 200px;
+    font-family: 'horroroid';
+    width: 420px;
+    float: right;
+    text-align: right;
+    user-select: none;
+}
+
+.witteTafel {
+    width: 100px;
+    margin-top: 163px;
+    margin-left: 350px;
+    border: transparent;
+    color: black;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.bed {
+    border: transparent;
+    color: grey;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 170px;
+    margin-right: 350px;
+    float: right;
+}
+
+.tip {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-family: 'horroroid';
+}
+
+.letter2 {
+    float: right;
+    border-color: transparent;
+    color: grey;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 200px;
+}
+
+.letters1 {
+    cursor: pointer;
+    background-color: transparent;
+    border: transparent;
+    color:  black;
+    float: left;
+    margin-left: 350px;
+    font-size: 15px;
+}
+
+.letter5 {
+    color: grey;
+    border: transparent;
+    background-color: transparent;
+    font-size: 6px;
+    float: left;
+    margin-bottom: 250px;
+    cursor: pointer;
+}
+
+.letters2 {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 110px;
+    color: transparent;
+}
+
+
+.codeInvoer {
+    color: white;
+    background-color: black;
+    float: right;
+    margin-right: 595px;
+    margin-top: 175px;
+    font-size: 25px;
+    font-family: 'horroroid';
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.homeScreen {
+    font-size: 25px;
+    margin-top: 175px;
+    margin-left:500px;
+    color: white;
+    background-color: black;
+    font-family: 'horroroid';
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+}
+
+footer {
+    width: 1600px;
+    height: 250px;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.article1 {
+    /* background-color: white; */
+    width: 500px;
+    height: 200px;
+    float: left;
+
+}
+
+.article2 {
+    /* background-color: aquamarine; */
+    width: 750px;
+    height: 250px;
+    float: left;
+}
+
+.witteTafel:hover {
+    opacity: 0.4;
+}
+
+.instruction {
+    float: left;
+    width: 450px;
+    height: 150px;
+    /* background-color: blueviolet; */
+}
+
+.letters2:hover {
+    color: white;
+}

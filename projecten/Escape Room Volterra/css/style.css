@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Devils Crew;
+    src: url("/fonts/devilscrew.otf");
+}
+
+@font-face {
+    font-family: kgflavorandframesthree;
+    src: url("/fonts/kgflavorandframesthree.ttf");
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("/img/building.png");
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: auto;
+}
+
+header {
+    width: 1100px;
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    width: 1100px;
+    height: 300px;
+}
+
+.buttonContainer {
+    width: 640px;
+    height: 200px;
+    float: left;
+}
+
+.arrowContainer {
+    width: 60px;
+    height: 200px;
+    float: left;
+}
+
+.textContainer {
+    width: 400px;
+    height: 200px;
+    float: right;
+}
+
+footer {
+    width: 1100px;
+    clear: both;
+}
+
+/*-------------------------------*/
+
+.titleText {
+    color: white;
+    text-shadow: 5px 5px black;
+    font-family: "Devils Crew";
+    font-size: 110pt;
+    user-select: none;
+}
+
+.startArrow {
+    color: black;
+    font-family: "Arrows";
+    font-size: 25pt;
+    user-select: none;
+    margin: 15px 20px;
+}
+
+.startText {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: "Devils Crew";
+    font-size: 20pt;
+    user-select: none;
+    margin: 5px 10px;
+}
+
+/*-------------------------------*/
+
+.startButton {
+    width: 90px;
+    height: 200px;
+    margin: 0px 20px;
+    opacity: 0;
+    float: right;
+}
+
+/*-------------------------------*/
+
+.startButton:hover {
+    opacity: 0.1;
+}
+
