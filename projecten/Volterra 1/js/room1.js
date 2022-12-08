@@ -25,9 +25,12 @@ function puzzleSixAction() {
 }
 
 function codeInvoeren() {
-    let codeKraken = prompt("Voer hier de gevonden letters en cijfers in. LET OP! letters moeten hoofdletters zijn!")
+    let codeKraken = prompt("Fill in the letters and numbers you have found")
+    codeKraken = codeKraken.toUpperCase();
+
     if (codeKraken === "2521 DB") {
-        alert("Code is gekraakt! Room 2 unlocked")
+        alert("Code is cracked! Room 2 unlocked")
+        window.location.href = "room2.html"
     } else {
         alert("Fout antwoord, probeer opnieuw!")
     }

@@ -1,0 +1,231 @@
+@font-face {
+    font-family: horror;
+    src: url(/fonts/horroroid.ttf);
+}
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0;  }
+    100% {opacity: 1; }
+}
+
+ @-webkit-keyframes fadeInOut {
+    0% {opacity: 0;}
+    50% {opacity:1;}
+    100% {opacity:0;}
+} 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+body {
+    background: url("/img/room2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+
+}
+
+h1 {
+    font-size: 25pt;
+    margin: auto;
+    font-family: 'horror';
+    color: white;
+    text-shadow: 2px 2px black;
+    user-select: none;
+    height: 250px;
+    width: 600px;
+    /* background-color: aquamarine; */
+    float: left;
+    animation: fadeInOut 5s;
+    animation-fill-mode: forwards;
+}
+
+header {
+    height: 250px;
+    width: 820px;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.room1 {
+    color: white;
+    font-family: 'horror';
+    font-size: 30px;
+    width: 100px;
+    height: 70px;
+    /* background-color: beige; */
+    float: right;
+    text-align: center;
+    animation: fadeIn 3s;
+  
+}
+
+
+.puzzle1 {
+    /* background-color: white; */
+    margin-top: 180px;
+    margin-left: 50px;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    opacity: 0; 
+    background-color: transparent;
+    color: white;
+    border: 0px transparent;
+    cursor: pointer;
+
+}
+
+article {
+    /* background-color: olive; */
+    height: 250px;
+    width: 600px;
+    float: left;
+
+}
+
+.puzzle2 {
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    margin-top: 7%;
+    margin-left: 15%;
+    background-color: transparent;
+    border: 0px transparent;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+/*-------------------------*/
+
+.empty {
+    float: left;
+    /* background-color: pink; */
+    height: 250px;
+    width: 600px;
+}
+
+.puzzle4 {
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
+    background-color:turquoise;
+    border: 0px transparent;
+    background-color: transparent;
+    margin-left: 350px;
+    margin-bottom: 550px;
+    opacity: 0;
+    cursor: pointer;
+    color: white;
+}
+
+.cijfercode2 {
+    width: 15px;
+    height: 15px;
+    color: white;
+    border: 0px transparent;
+    background-color: transparent;
+    opacity: 0;
+    cursor: pointer;
+    margin-left: 25%;
+
+}
+
+.puzzle3 { 
+    height: 35px;
+    width: 35px;
+    /* background-color: red; */
+    color: white;
+    margin-left: 350px;
+    margin-top: 50px;
+    cursor: pointer;
+    opacity: 0;
+    border: 0px solid transparent;
+    background-color: transparent;
+    
+} 
+
+
+
+/*------------------------*/
+footer {
+    /* background-color: aquamarine; */
+    width: 1800px;
+    height: 150px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+
+.homescreen {
+    font-family: 'horror';
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 250px;
+    margin-left: 450px;
+   
+}
+.insertcode {
+    font-family: 'horror';
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 250px;
+}
+
+.cijfercode {
+    width: 35px;
+    height: 35px;
+    margin-left: 15%;
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: white;
+    opacity: 0;
+    cursor: pointer;
+   
+
+    
+}
+
+/*--------------------------*/
+.puzzle1:hover {
+    opacity: 1;
+}
+
+.puzzle2:hover {
+    opacity: 1;
+}
+ 
+.puzzle3:hover {
+    opacity: 1;
+}
+.puzzle4:hover {
+    opacity: 1;
+}
+
+.cijfercode:hover {
+    opacity: 1;
+}
+.cijfercode2:hover {
+    opacity: 1;
+}
+
+/*--------------------------*/
+
+.invisible {
+    visibility: hidden;
+}

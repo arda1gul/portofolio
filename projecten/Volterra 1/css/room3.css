@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Horroroid;
+    src: url("/fonts/horroroid.ttf");
+}
+
+@-webkit-keyframes fadeInOut {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+* {
+    margin: 1;
+}
+
+body {
+    background-image: url("/img/room3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-block-size: 100%;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 100em;
+    margin: auto;
+}
+
+header {
+    width: 25vw;
+    height: 35vh;
+    float: left;
+}
+
+article {
+    width: 20vw;
+    height: 35vh;
+    float: left;
+}
+
+.titleContainer {
+    width: 55vw;
+    height: 35vh;
+    float: left;
+}
+
+.emptyBg1 {
+    width: 20vw;
+    height: 35vh;
+    float: left;
+}
+
+.emptyBg2 {
+    width: 20vw;
+    height: 35vh;
+    float: left;
+}
+
+.emptyBg3 {
+    width: 15vw;
+    height: 35vh;
+    float: left;
+}
+
+.emptyBg4 {
+    width: 49vw;
+    height: 35vh;
+    float: right;
+}
+
+footer {
+    width: 100vw;
+    height: 35vh;
+    float: left;
+}
+
+.descriptionText {
+    font-size: 25pt;
+    font-family: "Horroroid";
+    text-shadow: 2px 2px black;
+    user-select: none;
+    animation: fadeInOut 7s;
+    animation-fill-mode: forwards;
+    color: white;
+    margin: 0vh;
+}
+
+.titleText {
+    font-size: 25pt;
+    font-family: "Horroroid";
+    text-shadow: 2px 2px black;
+    user-select: none;
+    animation: fadeIn 3s;
+    color: white;
+    white-space: nowrap;
+    margin: 0vh 49vw;
+}
+
+/*-------------------------------*/
+
+.keypad {
+    border: none;
+    background-color: transparent;
+    font-size: 14pt;
+    font-family: "Horroroid";
+    text-shadow: 1px 1px black;
+    width: 5vw;
+    height: 4vh;
+    margin: 30vh 13vw;
+    color: white;
+    cursor: pointer;  
+}
+
+.puzzle1 {
+    width: 1vw;
+    height: 2vh;
+    margin: 24vh 2.3vw;
+    opacity: 0;
+    cursor: pointer; 
+}
+
+.puzzle2 {
+    width: 1vw;
+    height: 2vh;
+    margin: 14vh 8vw;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.puzzle3 {
+    width: 1vw;
+    height: 2vh;
+    margin: 30vh 10vw;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.puzzle4 {
+    width: 1vw;
+    height: 2vh;
+    margin: 26vh 59.5vw;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*-------------------------------*/
+
+.puzzle1:hover {
+    opacity: 0.1;
+}
+
+.puzzle2:hover {
+    opacity: 0.1;
+}
+
+.puzzle3:hover {
+    opacity: 0.1;
+}
+
+.puzzle4:hover {
+    opacity: 0.1;
+}
+
+/*-------------------------------*/
+
+.invisible {
+    visibility: hidden;
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Devils Crew;
+    src: url("/fonts/devilscrew.otf");
+}
+
+@font-face {
+    font-family: Arrows;
+    src: url("/fonts/kgflavorandframesthree.ttf");
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-block-size: 100%;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 100em;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    width: 100vw;
+    float: left;
+}
+
+article {
+    width: 100vw;
+    height: 50vh;
+    float: left;
+}
+
+
+footer {
+    width: 100vw;
+    height: 40vh;
+    clear: both;
+}
+
+/*--------------------------*/
+
+.invisible {
+    visibility: hidden;
+}
