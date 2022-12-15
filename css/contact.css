@@ -57,7 +57,7 @@ nav {
 
 footer {
     background-color: transparent;
-    width: 400px;
+    width: 700px;
     height: 100px;
     text-align: center;
     margin-left: 200px;
@@ -66,6 +66,7 @@ footer {
     margin-top: 120px;
     border-radius: 20px;
     cursor: default;
+    margin-top: 50px;
 }
 
 .peText {
@@ -86,11 +87,11 @@ footer {
 
 .article {
     background-color: transparent;
-    width: 400px;
-    height: 180px;
+    width: 650px;
+    height: 160px;
     text-align: center;
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 20px;
     border: 2px solid white;
     cursor: default;
@@ -112,4 +113,28 @@ footer {
 
 .email:hover {
     color: #06034a;
+}
+
+.github {
+    background-color: transparent;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin-left: 200px;
+    height: 150px;
+    border: 2px solid white;
+    margin-top: 120px;
+    border-radius: 20px;
+    cursor: default;
+    margin-top: 50px;
+}
+
+header {
+    font-size: 40px;
+    color: white;
+    font-family: funk;
+}
+
+.githubLink {
+    text-decoration: none;
 }
