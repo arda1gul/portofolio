@@ -88,6 +88,7 @@ header {
     height: 600px;
     margin-right: 200px;
     margin-top: 30px;
+    border-radius: 50px 20px 50px 20px;
     /* margin-bottom: 250px; */
 }
 
@@ -99,7 +100,6 @@ header {
     background-color: white;
     color: black;
     transition: 0.5s;
-    opacity: 0.3;
 }
 
 
