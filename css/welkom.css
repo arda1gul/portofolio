@@ -1,0 +1,11 @@
+body {
+    background-image: url("/img/achtergrond.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 2000px 1000px;
+}
+
+img {
+    height: 10px;
+    width: 100px;
+}
